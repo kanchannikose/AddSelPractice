@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-10T01:00:23 IST" name="Suite" finished-at="2024-07-10T01:01:33 IST" duration-ms="70161">
+    <groups>
+    </groups>
+    <test started-at="2024-07-10T01:00:23 IST" name="Test" finished-at="2024-07-10T01:01:33 IST" duration-ms="70161">
+      <class name="com.KanchanPractce.InvocationCountTest">
+        <test-method signature="swapp()[pri:0, instance:com.KanchanPractce.InvocationCountTest@6eda5c9]" started-at="2024-07-10T01:00:23 IST" name="swapp" finished-at="2024-07-10T01:00:23 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swapp -->
+      </class> <!-- com.KanchanPractce.InvocationCountTest -->
+      <class name="com.KanchanPractce.TestngFeatures">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.KanchanPractce.TestngFeatures@123ef382]" started-at="2024-07-10T01:00:23 IST" name="setup" finished-at="2024-07-10T01:00:40 IST" duration-ms="16924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userName()[pri:0, instance:com.KanchanPractce.TestngFeatures@123ef382]" started-at="2024-07-10T01:00:40 IST" name="userName" finished-at="2024-07-10T01:00:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.KanchanPractce.TestngFeatures@123ef382]" started-at="2024-07-10T01:00:40 IST" name="tearDown" finished-at="2024-07-10T01:00:41 IST" duration-ms="1359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.KanchanPractce.TestngFeatures@123ef382]" started-at="2024-07-10T01:00:41 IST" name="setup" finished-at="2024-07-10T01:00:48 IST" duration-ms="6708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.KanchanPractce.TestngFeatures@123ef382]" started-at="2024-07-10T01:00:48 IST" name="login" finished-at="2024-07-10T01:00:48 IST" depends-on-methods="com.KanchanPractce.TestngFeatures.userName" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.KanchanPractce.TestngFeatures@123ef382]" started-at="2024-07-10T01:00:48 IST" name="tearDown" finished-at="2024-07-10T01:00:49 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.KanchanPractce.TestngFeatures@123ef382]" started-at="2024-07-10T01:00:49 IST" name="setup" finished-at="2024-07-10T01:00:57 IST" duration-ms="7581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="password()[pri:0, instance:com.KanchanPractce.TestngFeatures@123ef382]" started-at="2024-07-10T01:00:57 IST" name="password" finished-at="2024-07-10T01:00:57 IST" depends-on-methods="com.KanchanPractce.TestngFeatures.userName" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.KanchanPractce.TestngFeatures@123ef382]" started-at="2024-07-10T01:00:57 IST" name="tearDown" finished-at="2024-07-10T01:00:58 IST" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.KanchanPractce.TestngFeatures -->
+      <class name="com.KanchanPractce.GoogleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:00:58 IST" name="setup" finished-at="2024-07-10T01:01:02 IST" duration-ms="3779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkTest()[pri:1, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:02 IST" name="checkTest" finished-at="2024-07-10T01:01:02 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:02 IST" name="tearDown" finished-at="2024-07-10T01:01:04 IST" duration-ms="1877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:04 IST" name="setup" finished-at="2024-07-10T01:01:08 IST" duration-ms="4107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkIndia()[pri:2, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:08 IST" name="checkIndia" finished-at="2024-07-10T01:01:08 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIndia -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:08 IST" name="tearDown" finished-at="2024-07-10T01:01:10 IST" duration-ms="1345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:10 IST" name="setup" finished-at="2024-07-10T01:01:14 IST" duration-ms="4390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search()[pri:3, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:14 IST" name="search" finished-at="2024-07-10T01:01:14 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:14 IST" name="tearDown" finished-at="2024-07-10T01:01:16 IST" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:16 IST" name="setup" finished-at="2024-07-10T01:01:20 IST" duration-ms="4240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:4, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:20 IST" name="test1" finished-at="2024-07-10T01:01:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:20 IST" name="tearDown" finished-at="2024-07-10T01:01:22 IST" duration-ms="1876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:22 IST" name="setup" finished-at="2024-07-10T01:01:26 IST" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test2()[pri:5, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:26 IST" name="test2" finished-at="2024-07-10T01:01:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:26 IST" name="tearDown" finished-at="2024-07-10T01:01:28 IST" duration-ms="1905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:28 IST" name="setup" finished-at="2024-07-10T01:01:32 IST" duration-ms="4169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test3()[pri:6, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:32 IST" name="test3" finished-at="2024-07-10T01:01:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.KanchanPractce.GoogleTest@1aa7ecca]" started-at="2024-07-10T01:01:32 IST" name="tearDown" finished-at="2024-07-10T01:01:33 IST" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.KanchanPractce.GoogleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
