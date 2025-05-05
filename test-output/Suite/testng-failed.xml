@@ -2,28 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="3" parallel="tests" name="Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="pwd" value="admin"/>
+    <parameter name="url" value="http://localhost:8888"/>
+    <parameter name="username" value="admin"/>
     <classes>
-      <class name="com.KanchanPractce.TestngFeatures">
+      <class name="com.KanchanPractce.Parameter">
         <methods>
-          <include name="login"/>
-          <include name="password"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="userName"/>
+          <include name="loginToVtiger" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.KanchanPractce.TestngFeatures -->
-      <class name="com.KanchanPractce.GoogleTest">
-        <methods>
-          <include name="checkTest"/>
-          <include name="setup"/>
-          <include name="test1"/>
-          <include name="checkIndia"/>
-          <include name="test3"/>
-          <include name="tearDown"/>
-          <include name="search"/>
-          <include name="test2"/>
-        </methods>
-      </class> <!-- com.KanchanPractce.GoogleTest -->
+      </class> <!-- com.KanchanPractce.Parameter -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

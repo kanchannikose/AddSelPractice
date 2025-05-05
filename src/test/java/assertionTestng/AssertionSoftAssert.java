@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class AssertionSoftAssert
-{
+{/*
 	
 	SoftAssert sa= new SoftAssert();
 	@Test
@@ -39,5 +39,58 @@ public class AssertionSoftAssert
 		sa.assertAll();
 		
 	}
+	
+	*/
+	
+	
+	
+	
+	
+	
+	
+	SoftAssert sa=new SoftAssert();
+	
+	@Test(priority=1)
+	public void test()
+	{
+		System.out.println("open the browser");
+		System.out.println("enter username");
+		System.out.println("enter password");
+		sa.assertEquals(true, true);
+		System.out.println("home page is validated");
+		//sa.assertEquals(false, true);
+		System.out.println("create contact");
+		System.out.println("contact is created");
+		sa.assertEquals(true, true);
+		sa.assertAll();
+	}
+	
+	@Test(priority=2)
+	public void logout()
+	{
+		System.out.println("click on logout button");
+		sa.assertEquals(false, true);
+		System.out.println("log out successfully");
+		sa.assertAll();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }

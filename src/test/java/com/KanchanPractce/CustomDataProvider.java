@@ -9,7 +9,7 @@ public class CustomDataProvider
 	public Object[][] getData()
 	{
 		Object[][] data= {{"abc@gmail.com","abc"}, {"xyz@gmail.com","xyz"}, {"mno@gmail.com","mno"}};
-		return data;
 		
+		return data;
 	}
 }

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assertionTestng.AssertionHardAssert">
+      <class name="com.KanchanPractce.Parameter">
         <methods>
-          <include name="test"/>
+          <include name="loginToVtiger"/>
         </methods>
-      </class> <!-- assertionTestng.AssertionHardAssert -->
+      </class> <!-- com.KanchanPractce.Parameter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

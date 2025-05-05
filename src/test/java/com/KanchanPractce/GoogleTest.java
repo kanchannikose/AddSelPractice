@@ -21,7 +21,7 @@ public class GoogleTest {
 	public void setup()
 	{
 		WebDriverManager.firefoxdriver().setup();
-		 driver=new FirefoxDriver();
+		driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
 		driver.get("https://www.amazon.in/");
